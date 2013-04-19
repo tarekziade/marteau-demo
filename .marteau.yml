@@ -1,7 +1,7 @@
 name: StackOF
 wdir: loadtest
 script: stress.py
-test: StressTest.test_example
+test: StressTest.test_simple
 nodes: 4
 cycles: '10:20:30'
 duration: 60
